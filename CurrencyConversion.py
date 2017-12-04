@@ -137,11 +137,11 @@ def main():
     c = converter(root)
     root.title("Currency Converter By: Brian Ton")
     menubar = Menu(root)
-    #Help Menu Init
+    # Help Menu Init
     menubar.add_command(label="Help", command=help)
-    #About Menu Init
-    menubar.add_command(label="About",command=about)
-    menubar.add_command(label="Exit",command=exit_prog)
+    # About Menu Init
+    menubar.add_command(label="About", command=about)
+    menubar.add_command(label="Exit", command=exit_prog)
     root.config(menu=menubar)
     root.mainloop()
 if __name__ == '__main__':
